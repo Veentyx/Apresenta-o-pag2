@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Josefin Sans', sans-serif;
+}
+nav{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #161615;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top: 8px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 90px;
+    font-size: 20px;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #e2d515;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    transition: .3s;
+}
+button#botaoLogin{
+    border: none;
+    background: #e2d515;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #161615;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button#botaoLogin:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+nav img{
+    max-width: 65px;
+    max-height: 65px;
+    width: auto;
+    height: auto;
+}
+body{
+    background-color:#222221;
+    text-align: center;
+}
+h1{
+    font-weight: 200;
+}
+main{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    justify-content: center;
+}
+main img{
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+}
+main{
+    background: #97959538;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+}
+h2{
+    font-size: 56px;
+    line-height: 15px;
+    margin-top: 50px;
+}
+span{
+    color:rgb(228, 196, 18)
+}
+aside p{
+    line-height: 30px;
+    max-width: 500px;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:500;
+}
+h5{
+    line-height: 25px;
+    max-width: 500px;
+    margin-top: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+a{
+    color: #bbb019;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: transparent;
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(88, 100, 16);
+    transition: .3s;
+}
+aside{
+    margin-top: 2%;
+}
+footer{
+    background: #161615;
+    height: 120px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.txt{
+    margin-left: 60px;
+    margin-top: 30px;
+    color:#7a7a7a;
+    font-weight: bold;
+}
+.txt p{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.txt p:hover{
+    color:#fff;
+    transition: .3s;
+
+}
+.imgs img{
+    max-width: 30px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+.imgs{
+    margin-right: 30px;
+}
+.spanp{
+    color:#fff
+}
