@@ -38,135 +38,94 @@ function checkInputs() {
     const passwordtwoValue = passwordtwo.value.trim()
 
     if(usernameValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(username, 'Preencha esse campo')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(username)
     }
 
     if(cpfValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(cpf, 'Preencha esse campo')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(cpf)
     }
 
     if(telValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(tel, 'Preencha esse campo')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(tel)
     }
 
     if(dataValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(data, 'Preencha esse campo')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(data)
     }
 
     if(sexoValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(sexo, 'Preencha esse campo')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(sexo)
     }
 
     if(estadoValue === '') {
-        // mostrar erro
-        // add classe
+
         setErrorFor(estado, 'Preencha esse campo')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(estado)
     }
     if(cepValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(cep, 'Preencha esse campo')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(cep)
     }
 
     if(cidadeValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(cidade, 'Preencha esse campo')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(cidade)
     }
 
     if(bairroValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(bairro, 'Preencha esse campo')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(bairro)
     }
 
     if(ruaValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(rua, 'Preencha esse campo')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(rua)
     }
 
     if(numeroValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(numero , 'Preencha esse campo')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(numero)
     }
 
     if(emailValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(email, 'Preencha esse campo')
     } else if (!isEmail(emailValue)) {
         setErrorFor(email, 'Email inválido')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(email)
     }
    
     if(passwordValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(password, 'Preencha esse campo')
 
     } else if(passwordValue.length < 8) { 
         setErrorFor(password, 'Senha deve ter mais que 8 caracteres')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(password)
     }
 
     if(passwordtwoValue === '') {
-        // mostrar erro
-        // add classe
         setErrorFor(passwordtwo, 'Preencha esse campo')
 
     } else if(passwordValue !== passwordtwoValue) { 
         setErrorFor(passwordtwo, 'Senhas não tão iguais')
     } else {
-        // adicionar a classe de sucesso
         setSuccessFor(passwordtwo)
     }
 }
